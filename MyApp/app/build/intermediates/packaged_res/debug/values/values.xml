@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimaryDark">#3700b3</color>
+    <color name="screenBackground">#F4CB36</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Count_button_text">Count</string>
+    <string name="Random_button_text">Random</string>
+    <string name="app_name">MyApp</string>
+    <string name="toast_button_text">Toast</string>
+    <string name="todo">TODO</string>
+    <style name="Base.Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApp" parent="Base.Theme.MyApp"/>
+</resources>
