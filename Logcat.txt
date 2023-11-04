@@ -1,0 +1,121 @@
+---------------------------- PROCESS STARTED (27482) for package com.cs639.myapp ----------------------------
+---------------------------- PROCESS STARTED (27482) for package com.cs639.myapp ----------------------------
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of main
+2023-10-21 09:53:36.319 25296-25296 com.cs639.myapp         com.cs639.myapp                      I  Late-enabling -Xcheck:jni
+2023-10-21 09:53:36.354 25296-25296 com.cs639.myapp         com.cs639.myapp                      W  Suspending all threads took: 19.336ms
+2023-10-21 09:53:36.354 25296-25296 com.cs639.myapp         com.cs639.myapp                      I  Using CollectorTypeCC GC.
+2023-10-21 09:53:36.355 25296-25296 com.cs639.myapp         com.cs639.myapp                      W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+2023-10-21 09:53:36.705 25296-25296 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 171979766; UID 10182; state: ENABLED
+2023-10-21 09:53:36.708 25296-25296 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 242716250; UID 10182; state: DISABLED
+2023-10-21 09:53:36.744 25296-25296 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~Ojn4brgpXwXMicQetcuNZA==/com.cs639.myapp-njaADg_VfLRMmztlpeWlrg==/base.dm': No such file or directory
+2023-10-21 09:53:36.746 25296-25296 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~Ojn4brgpXwXMicQetcuNZA==/com.cs639.myapp-njaADg_VfLRMmztlpeWlrg==/base.dm': No such file or directory
+2023-10-21 09:53:36.807 25296-25296 nativeloader            com.cs639.myapp                      D  Configuring clns-6 for other apk /data/app/~~Ojn4brgpXwXMicQetcuNZA==/com.cs639.myapp-njaADg_VfLRMmztlpeWlrg==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~Ojn4brgpXwXMicQetcuNZA==/com.cs639.myapp-njaADg_VfLRMmztlpeWlrg==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.cs639.myapp
+2023-10-21 09:53:36.830 25296-25296 GraphicsEnvironment     com.cs639.myapp                      V  Currently set values for:
+2023-10-21 09:53:36.830 25296-25296 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_pkgs=[]
+2023-10-21 09:53:36.830 25296-25296 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_values=[]
+2023-10-21 09:53:36.831 25296-25296 GraphicsEnvironment     com.cs639.myapp                      V  ANGLE GameManagerService for com.cs639.myapp: false
+2023-10-21 09:53:36.831 25296-25296 GraphicsEnvironment     com.cs639.myapp                      V  com.cs639.myapp is not listed in per-application setting
+2023-10-21 09:53:36.831 25296-25296 GraphicsEnvironment     com.cs639.myapp                      V  Neither updatable production driver nor prerelease driver is supported.
+2023-10-21 09:53:36.929 25296-25362 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-10-21 09:53:36.932 25296-25362 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-10-21 09:53:36.961 25296-25362 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-10-21 09:53:37.083 25296-25296 AppCompatDelegate       com.cs639.myapp                      D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-10-21 09:53:37.173 25296-25296 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-10-21 09:53:37.173 25296-25296 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-10-21 09:53:37.222 25296-25296 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 210923482; UID 10182; state: ENABLED
+2023-10-21 09:53:37.323 25296-25296 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 237531167; UID 10182; state: DISABLED
+2023-10-21 09:53:37.325 25296-25296 OpenGLRenderer          com.cs639.myapp                      W  Unknown dataspace 0
+2023-10-21 09:53:37.402 25296-25358 OpenGLRenderer          com.cs639.myapp                      W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-10-21 09:53:37.402 25296-25358 OpenGLRenderer          com.cs639.myapp                      W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-10-21 09:53:37.432 25296-25358 Gralloc4                com.cs639.myapp                      I  mapper 4.x is not supported
+2023-10-21 09:53:37.440 25296-25358 OpenGLRenderer          com.cs639.myapp                      E  Unable to match the desired swap behavior.
+2023-10-21 09:54:41.392 26823-26823 com.cs639.myapp         com.cs639.myapp                      I  Late-enabling -Xcheck:jni
+2023-10-21 09:54:41.425 26823-26823 com.cs639.myapp         com.cs639.myapp                      I  Using CollectorTypeCC GC.
+2023-10-21 09:54:41.425 26823-26823 com.cs639.myapp         com.cs639.myapp                      W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+2023-10-21 09:54:41.771 26823-26823 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 171979766; UID 10182; state: ENABLED
+2023-10-21 09:54:41.773 26823-26823 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 242716250; UID 10182; state: DISABLED
+2023-10-21 09:54:41.796 26823-26823 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~UfAbVEJkI2gN9ZvWxIfeww==/com.cs639.myapp-Yzqimo-OqMv_JmeT3p18ww==/base.dm': No such file or directory
+2023-10-21 09:54:41.797 26823-26823 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~UfAbVEJkI2gN9ZvWxIfeww==/com.cs639.myapp-Yzqimo-OqMv_JmeT3p18ww==/base.dm': No such file or directory
+2023-10-21 09:54:41.848 26823-26823 nativeloader            com.cs639.myapp                      D  Configuring clns-6 for other apk /data/app/~~UfAbVEJkI2gN9ZvWxIfeww==/com.cs639.myapp-Yzqimo-OqMv_JmeT3p18ww==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~UfAbVEJkI2gN9ZvWxIfeww==/com.cs639.myapp-Yzqimo-OqMv_JmeT3p18ww==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.cs639.myapp
+2023-10-21 09:54:41.881 26823-26823 GraphicsEnvironment     com.cs639.myapp                      V  Currently set values for:
+2023-10-21 09:54:41.881 26823-26823 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_pkgs=[]
+2023-10-21 09:54:41.881 26823-26823 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_values=[]
+2023-10-21 09:54:41.881 26823-26823 GraphicsEnvironment     com.cs639.myapp                      V  ANGLE GameManagerService for com.cs639.myapp: false
+2023-10-21 09:54:41.882 26823-26823 GraphicsEnvironment     com.cs639.myapp                      V  com.cs639.myapp is not listed in per-application setting
+2023-10-21 09:54:41.882 26823-26823 GraphicsEnvironment     com.cs639.myapp                      V  Neither updatable production driver nor prerelease driver is supported.
+2023-10-21 09:54:42.116 26823-26879 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-10-21 09:54:42.120 26823-26879 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-10-21 09:54:42.132 26823-26879 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-10-21 09:54:42.240 26823-26823 AppCompatDelegate       com.cs639.myapp                      D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-10-21 09:54:42.356 26823-26823 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-10-21 09:54:42.358 26823-26823 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-10-21 09:54:42.407 26823-26823 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 210923482; UID 10182; state: ENABLED
+2023-10-21 09:54:42.594 26823-26823 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 237531167; UID 10182; state: DISABLED
+2023-10-21 09:54:42.599 26823-26823 OpenGLRenderer          com.cs639.myapp                      W  Unknown dataspace 0
+2023-10-21 09:54:42.685 26823-26877 OpenGLRenderer          com.cs639.myapp                      W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-10-21 09:54:42.686 26823-26877 OpenGLRenderer          com.cs639.myapp                      W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-10-21 09:54:42.837 26823-26877 Gralloc4                com.cs639.myapp                      I  mapper 4.x is not supported
+2023-10-21 09:54:42.848 26823-26877 OpenGLRenderer          com.cs639.myapp                      E  Unable to match the desired swap behavior.
+2023-10-21 10:08:57.306 27177-27177 com.cs639.myapp         com.cs639.myapp                      I  Late-enabling -Xcheck:jni
+2023-10-21 10:08:57.354 27177-27177 com.cs639.myapp         com.cs639.myapp                      W  Suspending all threads took: 7.801ms
+2023-10-21 10:08:57.355 27177-27177 com.cs639.myapp         com.cs639.myapp                      I  Using CollectorTypeCC GC.
+2023-10-21 10:08:57.356 27177-27177 com.cs639.myapp         com.cs639.myapp                      W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+2023-10-21 10:08:57.532 27177-27177 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 171979766; UID 10182; state: ENABLED
+2023-10-21 10:08:57.533 27177-27177 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 242716250; UID 10182; state: DISABLED
+2023-10-21 10:08:57.582 27177-27177 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~cIy8uMz87icpYo5ELhjVQA==/com.cs639.myapp-cdH6J9rE-WTNOaLhdzojFw==/base.dm': No such file or directory
+2023-10-21 10:08:57.582 27177-27177 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~cIy8uMz87icpYo5ELhjVQA==/com.cs639.myapp-cdH6J9rE-WTNOaLhdzojFw==/base.dm': No such file or directory
+2023-10-21 10:08:57.633 27177-27177 nativeloader            com.cs639.myapp                      D  Configuring clns-6 for other apk /data/app/~~cIy8uMz87icpYo5ELhjVQA==/com.cs639.myapp-cdH6J9rE-WTNOaLhdzojFw==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~cIy8uMz87icpYo5ELhjVQA==/com.cs639.myapp-cdH6J9rE-WTNOaLhdzojFw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.cs639.myapp
+2023-10-21 10:08:57.648 27177-27177 GraphicsEnvironment     com.cs639.myapp                      V  Currently set values for:
+2023-10-21 10:08:57.648 27177-27177 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_pkgs=[]
+2023-10-21 10:08:57.648 27177-27177 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_values=[]
+2023-10-21 10:08:57.648 27177-27177 GraphicsEnvironment     com.cs639.myapp                      V  ANGLE GameManagerService for com.cs639.myapp: false
+2023-10-21 10:08:57.648 27177-27177 GraphicsEnvironment     com.cs639.myapp                      V  com.cs639.myapp is not listed in per-application setting
+2023-10-21 10:08:57.649 27177-27177 GraphicsEnvironment     com.cs639.myapp                      V  Neither updatable production driver nor prerelease driver is supported.
+2023-10-21 10:08:57.759 27177-27232 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-10-21 10:08:57.764 27177-27232 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-10-21 10:08:57.775 27177-27232 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-10-21 10:08:57.835 27177-27177 AppCompatDelegate       com.cs639.myapp                      D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-10-21 10:08:57.946 27177-27177 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-10-21 10:08:57.950 27177-27177 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-10-21 10:08:57.985 27177-27177 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 210923482; UID 10182; state: ENABLED
+2023-10-21 10:08:58.111 27177-27177 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 237531167; UID 10182; state: DISABLED
+2023-10-21 10:08:58.117 27177-27177 OpenGLRenderer          com.cs639.myapp                      W  Unknown dataspace 0
+2023-10-21 10:08:58.183 27177-27230 OpenGLRenderer          com.cs639.myapp                      W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-10-21 10:08:58.184 27177-27230 OpenGLRenderer          com.cs639.myapp                      W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-10-21 10:08:58.233 27177-27230 Gralloc4                com.cs639.myapp                      I  mapper 4.x is not supported
+2023-10-21 10:08:58.240 27177-27230 OpenGLRenderer          com.cs639.myapp                      E  Unable to match the desired swap behavior.
+2023-10-21 10:14:59.188 27482-27482 com.cs639.myapp         com.cs639.myapp                      I  Late-enabling -Xcheck:jni
+2023-10-21 10:14:59.210 27482-27482 com.cs639.myapp         com.cs639.myapp                      I  Using CollectorTypeCC GC.
+2023-10-21 10:14:59.211 27482-27482 com.cs639.myapp         com.cs639.myapp                      W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+2023-10-21 10:14:59.336 27482-27482 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 171979766; UID 10182; state: ENABLED
+2023-10-21 10:14:59.337 27482-27482 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 242716250; UID 10182; state: DISABLED
+2023-10-21 10:14:59.359 27482-27482 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~Tke16NqpJlG7HPcMs-qKRw==/com.cs639.myapp-hyO6lCQTQjleu6Q0E9M-cw==/base.dm': No such file or directory
+2023-10-21 10:14:59.359 27482-27482 ziparchive              com.cs639.myapp                      W  Unable to open '/data/app/~~Tke16NqpJlG7HPcMs-qKRw==/com.cs639.myapp-hyO6lCQTQjleu6Q0E9M-cw==/base.dm': No such file or directory
+2023-10-21 10:14:59.436 27482-27482 nativeloader            com.cs639.myapp                      D  Configuring clns-6 for other apk /data/app/~~Tke16NqpJlG7HPcMs-qKRw==/com.cs639.myapp-hyO6lCQTQjleu6Q0E9M-cw==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~Tke16NqpJlG7HPcMs-qKRw==/com.cs639.myapp-hyO6lCQTQjleu6Q0E9M-cw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.cs639.myapp
+2023-10-21 10:14:59.451 27482-27482 GraphicsEnvironment     com.cs639.myapp                      V  Currently set values for:
+2023-10-21 10:14:59.451 27482-27482 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_pkgs=[]
+2023-10-21 10:14:59.451 27482-27482 GraphicsEnvironment     com.cs639.myapp                      V    angle_gl_driver_selection_values=[]
+2023-10-21 10:14:59.451 27482-27482 GraphicsEnvironment     com.cs639.myapp                      V  ANGLE GameManagerService for com.cs639.myapp: false
+2023-10-21 10:14:59.451 27482-27482 GraphicsEnvironment     com.cs639.myapp                      V  com.cs639.myapp is not listed in per-application setting
+2023-10-21 10:14:59.452 27482-27482 GraphicsEnvironment     com.cs639.myapp                      V  Neither updatable production driver nor prerelease driver is supported.
+2023-10-21 10:14:59.531 27482-27520 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-10-21 10:14:59.532 27482-27520 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-10-21 10:14:59.534 27482-27520 libEGL                  com.cs639.myapp                      D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-10-21 10:14:59.571 27482-27482 AppCompatDelegate       com.cs639.myapp                      D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-10-21 10:14:59.679 27482-27482 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-10-21 10:14:59.679 27482-27482 com.cs639.myapp         com.cs639.myapp                      W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-10-21 10:14:59.708 27482-27482 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 210923482; UID 10182; state: ENABLED
+2023-10-21 10:14:59.824 27482-27482 Compatibil...geReporter com.cs639.myapp                      D  Compat change id reported: 237531167; UID 10182; state: DISABLED
+2023-10-21 10:14:59.826 27482-27482 OpenGLRenderer          com.cs639.myapp                      W  Unknown dataspace 0
+2023-10-21 10:14:59.875 27482-27518 OpenGLRenderer          com.cs639.myapp                      W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-10-21 10:14:59.877 27482-27518 OpenGLRenderer          com.cs639.myapp                      W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-10-21 10:14:59.908 27482-27518 Gralloc4                com.cs639.myapp                      I  mapper 4.x is not supported
+2023-10-21 10:14:59.917 27482-27518 OpenGLRenderer          com.cs639.myapp                      E  Unable to match the desired swap behavior.
+2023-10-21 10:26:22.677 27482-27518 EGL_emulation           com.cs639.myapp                      D  app_time_stats: avg=62052.60ms min=1.24ms max=682547.38ms count=11
+2023-10-21 10:26:23.684 27482-27518 EGL_emulation           com.cs639.myapp                      D  app_time_stats: avg=3.19ms min=1.73ms max=5.72ms count=38
